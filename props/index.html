@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App: Four Ways (No State)</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="vanilla-html-app.js" type="module" defer></script>
+    <script src="vanilla-createElement-app.js" type="module" defer></script>
+
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="react-jsx-app.js" type="text/babel" defer></script>
+
+    <script src="react-createElement-app.js" type="module" defer></script>
+</head>
+<body>
+    <h1 class="title">App: Four Ways <i>(Props)</i></h1>
+
+    <!-- vanilla js -->
+    <div class="render-root" id="vanilla-html-root"></div>
+    <div class="render-root" id="vanilla-createElement-root"></div>
+
+    <!-- react -->
+    <div class="render-root" id="react-jsx-root"></div>
+    <div class="render-root" id="react-createElement-root"></div>
+</body>
+</html>

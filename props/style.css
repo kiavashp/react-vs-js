@@ -1,0 +1,35 @@
+body {
+    font-family: monospace;
+    margin: 20px 40px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h1.title {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+i {
+    font-weight: initial;
+}
+
+.render-root {
+    flex-basis: 40%;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+main {
+    padding: 40px;
+    border: 1px solid #ddd;
+}
+
+.rendered-by {
+    display: block;
+    margin: -40px -40px 20px;
+    padding: 4px 8px;
+    background: #eee;
+}
